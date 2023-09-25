@@ -19,7 +19,7 @@ import org.firstinspires.ftc.teamcode.hardwareMap;
 @TeleOp(name = "OdomDrive")
 public class OdomDrive extends LinearOpMode {
 
-    HardwareMap robot       = new HardwareMap(this);
+    hardwareMap robot       = new hardwareMap(this);
 //    IMU imu;
     double botHeading;
     double old_botHeading;
